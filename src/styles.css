@@ -59,6 +59,15 @@ li {
   top: -32px;
 }
 
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
 .weather-forecast {
   margin: 20px;
   text-align: center;
